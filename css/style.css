@@ -1,0 +1,396 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing:border-box
+}
+.name{
+    font-size: 29px;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    float: left;
+    font-family: "Raleway", sans-serif;
+    top: 20px;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+}
+.nav-menu{
+    display: flex;
+    right: 100px;
+    position: absolute;
+    float: right;
+    list-style: none;
+    top: 10px;
+}
+.menu-ic{
+    font-weight: 900;
+    right: 0;
+    font-size: 24px;
+    top: 35%;
+    display: none;
+    position: absolute;
+}
+.menu-item{
+    padding-left: 40px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.menu:hover{
+    text-shadow: 0 0 20px black, 0 0 40px rgb(255, 255, 255), 0 0 50px black;
+}
+
+#home{
+    position: relative;
+}
+
+.vid{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    right: 10%;
+    background-color: #f7f8f9;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .15), inset 0 0 0 1px #eceff1;
+}
+
+
+.back{
+    position: absolute;
+    letter-spacing: 5px;
+    top: 40%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 21px;
+    left: 86px;
+}
+.btn{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    padding: 11px 17px;
+    font-family: system-ui;
+    border-radius: 20px;
+}
+#skill{
+    background-color:black;
+    color: white;
+}
+.skil-head{
+    margin: 0;
+    position: relative;
+    top: 13px;
+
+}
+ .container {
+   width: 50%; 
+   background-color: #ddd; 
+   border-radius: 2px;
+ }
+.skills {
+   text-align: right; 
+   padding-top: 3px; 
+   padding-bottom: 3px; 
+   color: white; 
+ }
+.html {width: 90%; background-color: DarkOrange;} 
+.css {width: 80%; background-color: DodgerBlue;} 
+.js {width: 65%; background-color: green;}
+.boot {width: 70%; background-color: aqua;} 
+.git {width: 77%; background-color: purple;} 
+.vs {width: 90%; background-color: blue;}
+
+.sk{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box-sk{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#about{
+    height: 100vh;
+}
+.h1{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+.contain-1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.contain-2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.box{
+    height: 100%;
+    width: 50%;
+    margin: 14px;
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-para{
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+}
+.about-Head{
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+}
+#edu{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-edu{
+    background-color: white;
+    display: flex;
+    margin: 9px;
+    border-radius: 8px;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+    box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.2);
+    height: 70%;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+.edu-para{
+    font-family: "Montserrat", sans-serif;
+}
+
+.edu-pic{
+    height: 100%;
+    border-radius: 10px;
+    width: 30%;
+}
+.edu-detail{
+    height:auto ;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.edu-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+#contact{
+    gap: 28px;
+    background-color: black;
+    height: 50vh;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.cont{
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.c1p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.list{
+    list-style: none;
+    line-height: 30px;
+
+}
+.links{
+    text-decoration: none;
+    line-height: 9px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 17px;
+}
+ .icons{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 22px;
+    margin-right: 9px;
+    padding: 10px;   
+ }
+ .fa-caret-right, .fa-phone,.env{
+    letter-spacing: 10px;
+ }
+
+ .sk-ic{
+    letter-spacing: 10px;
+ }
+
+.list:hover{
+    color: yellow;
+}
+.links:hover{
+    color: yellow;
+}
+.fa-linkedin:hover{
+    color: skyblue;
+    background-color: black;
+}
+.fa-linkedin:hover{
+    color: skyblue;
+    background-color: black;
+}
+.fa-github:hover{
+    color: white;
+    background-color: black;
+}
+.fa-twitter:hover{
+    color: red;
+    background-color: black;
+}
+.fa-envelope:hover{
+    color: red;
+    background-color: black;
+}
+.fa-instagram:hover{
+    color: deeppink;
+    background-color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+      background-color: lightgreen;
+    }
+    .name{
+        left: 20px;
+    }
+    .nav-menu{
+        display: none;
+
+    }
+
+    .back{
+        position: absolute;
+        top: 50%;
+        font-size: 15px;
+        letter-spacing: 2px;
+        left: 15px;
+    }
+    .img{
+        position: absolute;
+        top: 15%;
+        height: 200px;
+        right: 23%;
+        width: 200px;
+    }
+    .vid{
+        height: 80vh;
+    }
+    .h1{
+        font-size: 28px;
+        letter-spacing: 2px;
+        margin-bottom: 23px;
+    }
+    .contain-1{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        margin: 0;
+    }
+    .about-para{
+        line-height: 25px;
+        height: 250px;
+        overflow: scroll;
+    }
+    #skill{
+        height: 90vh;
+    }
+    .contain-2{
+        flex-direction: column;
+    }
+    .box-edu{
+        flex-direction: column;
+        width: 90%;
+    }
+    .edu-pic{
+        width: 90%;
+        margin: 10px;
+    }
+    .c1, .c2{
+        display:none;
+    }
+    .c3{
+        width: 90%;
+        align-items: center;
+
+    }
+    .menu-ic{
+        display: block;
+        right: 25px;
+    }
+    .show{
+        right: 0px;
+        position: absolute;
+        top: 57px;
+        padding: unset;
+        line-height: 31px;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, .2);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        display: block;
+    }
+
+    
+  }
+

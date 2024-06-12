@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/ef90a440e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="nav">     
+        <script src="./js/script.js"></script>   
+            <h1 class="name">Perumal</h1>
+            <ul class="nav-menu" id="navmenu">
+                <li class="menu-item"><a href="#home" class="menu">HOME</a></li>
+                <li class="menu-item"><a href="#about" class="menu">ABOUT</a></li>
+                <li class="menu-item"><a href="#skill" class="menu">SKILL</a></li>
+                <li class="menu-item"><a href="#edu" class="menu">EDUCATION</a></li>
+                <li class="menu-item"><a href="#contact" class="menu">CONTACT</a></li>
+            </ul>
+            <div onclick="toggleMenu()">
+                <i class="fa-solid fa-bars menu-ic"></i>
+            </div>        
+    </section>
+    <section id="home">
+        <video autoplay muted loop class="vid">
+            <source src="video/videoplayback.mp4" type="video/mp4" >
+        </video>
+        <div>
+            <img class="img" src="./image/hi__1_-removebg-preview.png" alt="">
+        </div>
+        <div class="back">
+        <h1>I'm Perumal</h1>
+        <h1>Frontend Developer</h1>
+        <p>"Empowering dreams through digital innovation and <br>boundless creativity"</p>
+        <a href="#about" class="btn">About Me</a>
+    </div>
+    </section>
+    <section id="about">
+        <h1 class="about-head h1">About Me</h1>
+        <div class="contain-1">
+            <div class="box box1">
+                <img src="./image/laptop wave.png" height="300px" width="300px">
+            </div>
+            <div class="box box2">
+            <h3 class="about-Head">Hello folks! </h3><br>
+
+                <p class="about-para">I'm Perumal, an aspiring web developer with a passion for creating innovative and user-friendly digital experiences. Although I'm new to the world of web development, I bring a strong foundation in coding principles, a hunger for learning, and a drive to make an impact in this exciting field. <br><br>
+                
+                                
+                Thank you for taking the time to learn a bit about me. I am excited about the journey ahead and look forward to the opportunities and challenges that come with it.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <h1 class="skil-head h1">Skills</h1>
+        <div class="contain-2">
+            <div class="box box-sk">
+                <p class="sk"><i class="fa-brands fa-html5 sk-ic"></i>HTML</p>
+                <div class="container">
+                    <div class="skills html"></div>
+                </div>
+                <p class="sk"><i class="fa-brands fa-css3-alt sk-ic"></i>CSS</p>
+                <div class="container">
+                    <div class="skills css"></div>
+                </div>
+                <p class="sk"><i class="fa-brands fa-js sk-ic"></i>JavaScript</p>
+                <div class="container">
+                    <div class="skills js"></div>
+                </div>
+            </div>
+            <div class=" box box-sk">
+                <p class="sk"><i class="fa-brands fa-bootstrap sk-ic"></i>Bootstrap</p>
+                <div class="container">
+                    <div class="skills boot"></div>
+                </div>
+                <p class="sk"> <i class="fa-brands fa-github sk-ic"></i>Git hub</p>
+                <div class="container">
+                    <div class="skills git"></div>
+                </div>
+                <p class="sk"><i class="fa-solid fa-code sk-ic"></i>Vs code</p>
+                <div class="container">
+                    <div class="skills vs"></div></div>
+                </div>
+            </section>
+    <section id="edu">
+        <h1 class="edu-head h1">Education</h1>
+        <div class="pg box-edu">
+            <div class="edu-pic">
+                <img class="edu-img" src="./image/adhi.jpeg" alt="">
+            </div>
+            <div class="edu-detail">
+                 <h3>MCA computer application </h3>
+            <p class="edu-para">Adhiparasakthi College of Arts and Science</p>
+            <h3>2023-2025 | pursuing</h3>
+            </div>
+           
+        </div>
+        <div class="ug box-edu">
+            <div class="edu-pic">
+                <img class="edu-img" class="edu-img" src="./image/images.jpeg" alt="College image">
+            </div>
+            <div class="edu-detail"> 
+                <h3>BCA computer application </h3>
+            <p class="edu-para">S.S.S College of Arts and Science</p>
+            <h3>2020-2023 | Completed</h3>
+        </div>
+                     
+        </div> 
+        <div class="12th box-edu">
+            <div class="edu-pic">
+                <img class="edu-img" src="./image/aw.jpg" alt="school image">
+            </div>
+            <div class="edu-detail">
+                <h3>Class 12th</h3>
+            <p class="edu-para">Government Adw Higher Secondary School</p> 
+            <h3>2019-2020 | Completed</h3>  
+            </div>                     
+        </div>
+    </section>
+    <section id="contact">
+        <div class="c1 cont">
+            <h3>Perumal's Portfolio</h3>
+            <p class="c1p">Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+        </div>
+        <div class="c2 cont ">
+            <h3>Quick links</h3>
+            <ul class="quick-menu">
+                <li class="list"><i class="fa-solid fa-caret-right"></i><a href="#home" class="links">Home</a></li>
+                <li class="list"><i class="fa-solid fa-caret-right"></i><a href="#about" class="links">About me</a></li>
+                <li class="list"><i class="fa-solid fa-caret-right"></i><a href="#skill" class="links">Skills</a></li>
+                <li class="list"><i class="fa-solid fa-caret-right"></i><a href="#edu" class="links">Education</a></li>
+                <li class="list"><i class="fa-solid fa-caret-right"></i><a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </div>
+        <div class="c3 cont">
+            <h3>Contact info</h3>
+            <p class="c1p"><i class="fa-solid fa-phone"></i>+91-xxx-xxx-xxxx</p>
+            <p class="c1p"><i class="fa-solid fa-envelope env"></i>perumal21@gmail.com</p>
+            <p class="c1p">Tamil nadu,Vellore-632517</p>
+            <div class="ic">
+                <i class="fa-brands fa-linkedin icons "></i>
+                <i class="fa-brands fa-github icons"></i>
+                <i class="fa-solid fa-envelope icons"></i>
+                <i class="fa-brands fa-twitter icons"></i>
+                <i class="fa-brands fa-instagram icons"></i>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
